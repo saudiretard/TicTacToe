@@ -1,8 +1,9 @@
 # TicTacToe
 
-TIC TAC TOE MADE BY kevz#2073 
-MADE WITH C# WITH AI [NO MINIMAX ALGORITHM]
-This AI may be unbeatable
+Tic Tac Toe made by kevz#2073 
+Made With C# 
+With AI [NO MINIMAX ALGORITHM]
+This AI might be unbeatable
 
 This code is a little bit mess up, since im only a beginner. :)
 Thanks to :
