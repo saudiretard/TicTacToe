@@ -1,7 +1,8 @@
 # TicTacToe
 
 Tic Tac Toe made by kevz#2073 
-Made With C# 
+Made With C#
+
 With AI [NO MINIMAX ALGORITHM]
 This AI might be unbeatable
 
