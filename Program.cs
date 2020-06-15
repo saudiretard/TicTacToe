@@ -105,6 +105,13 @@ namespace TicTacToe
 				Console.WriteLine("Enemy placed an 'O' in " + a + "!");
 				return;
 			}
+			else if (copiedBoard[0] != " " || copiedBoard[2] != " " || copiedBoard[6] != " "
+					|| copiedBoard[8] != " " && Round == 1)
+			{
+				MainBoard[4] = "O";
+				await SendEmbedAI("ENEMY TURN", "Enemy placed an 'O' in 5!");
+				return;
+			}
 
 			for(int i = 0; i < 9; i++)
 			{
@@ -122,6 +129,12 @@ namespace TicTacToe
 						copiedBoard[i] = " ";
 					}
 				}
+			}
+			
+			if(Round == 5 && MainBoard[6] == " ")
+			{
+				MainBoard[6] = "O";
+				return;
 			}
 
 			for (int i = 0; i < 9; i++)
